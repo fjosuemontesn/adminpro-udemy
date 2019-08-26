@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styles: []
 })
 export class Graficas1Component implements OnInit {
+  public doughnutChartLabels: string[] = ['Mundanos', 'Cristianos', 'Ateos'];
+  public doughnutChartData: number[] = [350, 450, 100];
+  public doughnutChartType: string = 'doughnut';
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }
